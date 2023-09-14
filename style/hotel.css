@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background: transparent
+}
+
+header {
+    display: flex;
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    height: 100px;
+
+
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+.logo img {
+    display: block;
+    height: 100%;
+    width: 100px;
+    opacity: 1;
+}
+
+.navigationBar {
+    margin: 25px;
+    margin-left: 200px;
+
+}
+
+.navigationBar a {
+    position: relative;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: CamphorPro-Medium, Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 20px;
+    color: #000
+}
+
+.header-video {
+    border: 1px solid #000;
+    height: 550px;
+}
+
+.sub-div-two {
+    display: flex;
+    margin: 60px;
+    margin-left: 35%;
+    display: flex;
+    color: #8d9498;
+}
+
+.sub-div-two div {
+    margin: 30px;
+    line-height: calc(.52083vw + 21.5px);
+    font-family: AmasisMTPro, Times, serif;
+    font-weight: 300;
+}
+
+.sub-div-three {
+    display: flex;
+    height: 400px;
+    border: 1px solid red;
+    margin-bottom: 50px;
+    
+
+}
+
+.form-div {
+    margin-top: 50px;
+    color: #8d9498;
+    height: 450px;
+    width: 700px;
+    background-color: #f3f3f3;
+    font-family: AmasisMTPro, Times, serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 6%;
+    margin-left: 10%;
+    text-align: start;
+    font-size: 15px;
+    line-height: 24px;
+}
+.sub-div-three img{
+    width: 600px;
+    height: 450px;
+}
+
+
+.sub-div-four {
+    display: flex;
+    height: 400px;
+    border: 1px solid red;
+    margin-top: 200px;
+    margin-bottom: 250px;
+    
+
+}
+
+.form-div2 {
+    margin-top: 50px;
+    color: #8d9498;
+    height: 500px;
+    width: 600px;
+    background-color: #f3f3f3;
+    font-family: AmasisMTPro, Times, serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 6%;
+    margin-right: 10%;
+    text-align: start;
+    font-size: 15px;
+    line-height: 24px;
+}
+.sub-div-four img{
+    width: 650px;
+    height: 500px;
+}
+
+.sub-div-five{
+    display: flex;
+    gap: 30px;
+    border: 1px solid black;
+    height: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.sub-div-five img{
+    height: 300px;
+    width: 200px;
+}
