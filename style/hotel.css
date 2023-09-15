@@ -13,7 +13,7 @@
 
 header {
     display: flex;
-    margin: 30px;
+    position: relative;
     text-decoration: none;
     background-color: transparent;
     height: 120px;
@@ -35,14 +35,44 @@ video {
 
 .logo img {
     display: block;
-    height: 100%;
+    height: 100px;
     width: 100px;
     opacity: 1;
+
+}
+
+.header-p-text {
+    opacity: 1;
+    font-family: CamphorPro-Medium, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: calc(.36458vw + 1.75px);
+    color: #fff;
+    background: transparent;
+    padding-bottom: 50px;
+}
+
+.header-p-text2 {
+    line-height: calc(4.16667vw + 22px);
+    letter-spacing: calc(.075vw - .66px);
+    font-size: calc(4.6875vw + 12.5px);
+    font-family: AmasisMTPro, Times, serif;
+    display: inline-block;
+    color: #fff;
+    padding-bottom: 50px;
 }
 
 .navigationBar {
-    margin: 25px;
-    margin-left: 200px;
+    padding-top: 15px;
+    margin: 20px;
+    margin-left: 100px;
+
+
+}
+
+.navigationBar :hover {
+    text-decoration: underline;
 
 }
 
@@ -53,8 +83,10 @@ video {
     font-family: CamphorPro-Medium, Arial, sans-serif;
     font-weight: 500;
     text-decoration: none;
-    padding: 20px;
-    color: #000
+    padding: 10px;
+    color: #000;
+    letter-spacing: 1px;
+
 }
 
 .header-video {
@@ -197,24 +229,27 @@ footer {
     padding-top: 10px;
     color: #89868b;
 }
-.footer-sub-div-two{
+
+.footer-sub-div-two {
     display: flex;
     gap: 18%;
     padding-left: 40px;
     margin-top: 40px;
 }
-.footer-bar a{
-   
+
+.footer-bar a {
+
     font-family: CamphorPro-Medium, Arial, sans-serif;
     font-weight: 500;
     text-decoration: none;
     padding: 20px;
     color: #89868b;
-   font-size: 11px;
+    font-size: 11px;
     line-height: 13px;
     letter-spacing: 1.5px;
     transition: color .2s;
 }
-.footer-bar{
-   margin-top: 50px;
+
+.footer-bar {
+    margin-top: 50px;
 }
